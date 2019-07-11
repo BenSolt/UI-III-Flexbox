@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+h3{
+	font-size: 25px;
+	margin-top: 20px;
+	
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
@@ -70,9 +75,13 @@ div{
 line-height: 1.25;
 }
 
+/* paragraphs */
 p{
 font-size: 20px;
+padding: 10px;
 }
+
+
 
 
 .container{
@@ -106,12 +115,16 @@ a{
 	
 }
 
-.columngroup{
+/* Column bottom: facts about and girl computer iimg */
+.columnbottom{
 	display: flex;
 	justify-content: center;
 }
 
-
+/* line bottom */
+hr.style1{
+    border-top: 2px solid black;
+}
 
 /*  inovation on demand */
 
@@ -132,8 +145,8 @@ a{
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
-	align-items: center;
-	/* background: orange; */
+	align-items: left;
+	
 }
 
 /* button */
@@ -173,30 +186,23 @@ header .logo{
 	display: flex;
 }
 
+/* Services Page */
+
 .sixboxes{
 	display: flex;
-	justify-content: center;
-
-
+	justify-content: flex-start; 
+	/* background: green;  */
 }
-	
-	.boxes1{
-		
+
+	.boxes{
 		display: flex;
 		flex-flow: column nowrap;
-		justify-content: flex-end;
-		/* background: gainsboro; */
-		
+		justify-content: center;
+		padding: 5%;
+		border: 2px solid black;
+		background: #f4f3f4;
+		margin: 10% 5%;
 	}
-
-	.boxes2{
-		 
-		height: 20%;
-		display: flex;
-		flex-flow: column nowrap;
-		/* justify-content: flex-end; */
-		background: gainsboro;
-
 
 
 footer {
