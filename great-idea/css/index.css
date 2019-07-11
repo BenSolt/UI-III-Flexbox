@@ -62,5 +62,154 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+h3{
+	font-size: 25px;
+	margin-top: 20px;
+	
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+div{
+line-height: 1.25;
+}
+
+/* paragraphs */
+p{
+font-size: 20px;
+padding: 10px;
+}
+
+
+
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	 /* background: pink; */
+}
+
+/* buttons, great idea img  */
+nav{
+	 display: flex;
+	 justify-content: space-around;
+	  
+	 
+
+}
+
+/* services, product, about, contact  */
+a{
+	display: flex;
+	margin:1%;
+	color: gray;
+	
+}
+
+
+
+.main-header{
+	display: flex;
+	justify-content: center;
+	
+}
+
+/* Column bottom: facts about and girl computer iimg */
+.columnbottom{
+	display: flex;
+	justify-content: center;
+}
+
+/* line bottom */
+hr.style1{
+    border-top: 2px solid black;
+}
+
+/*  inovation on demand */
+
+.column{
+	
+	width: 45%;
+	margin: 0 2.5%;
+	font-size: 55px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.column2{
+	 width: 45%; 
+	margin: 0 2.5%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: left;
+	
+}
+
+/* button */
+button{
+	width: 160px;
+	height: 30px;
+	
+	}
+
+.services-header-img{
+	display: flex;
+}
+
+.services-info-img{
+	display: flex;
+}
+
+
+
+header .logo{
+	margin-left: 25px;
+}
+
+/* features and about */
+.middle-container{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.middle-img{
+	display: flex;
+}
+
+
+.bottom-container{
+	display: flex;
+}
+
+/* Services Page */
+
+.sixboxes{
+	display: flex;
+	justify-content: flex-start; 
+	/* background: green;  */
+}
+
+	.boxes{
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		padding: 5%;
+		border: 2px solid black;
+		background: #f4f3f4;
+		margin: 10% 5%;
+	}
+
+
+footer {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+ .footer-text{
+	 text-align: center;
+ }
