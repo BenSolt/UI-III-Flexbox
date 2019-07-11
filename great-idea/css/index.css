@@ -76,16 +76,17 @@ font-size: 20px;
 
 
 .container{
-	width: 1200px;
+	width: 900px;
 	margin: 0 auto;
-	background: pink;
+	 /* background: pink; */
 }
 
 /* buttons, great idea img  */
 nav{
 	 display: flex;
 	 justify-content: space-around;
-	 background: orange;
+	  
+	 
 
 }
 
@@ -94,7 +95,7 @@ a{
 	display: flex;
 	margin:1%;
 	color: gray;
-	background: blue;
+	
 }
 
 
@@ -102,29 +103,53 @@ a{
 .main-header{
 	display: flex;
 	justify-content: center;
-	background: blue;
+	
+}
+
+.columngroup{
+	display: flex;
+	justify-content: center;
 }
 
 
 
 /*  inovation on demand */
+
 .column{
-	background: orange;
+	
 	width: 45%;
 	margin: 0 2.5%;
+	font-size: 55px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 }
 
+.column2{
+	 width: 45%; 
+	margin: 0 2.5%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	/* background: orange; */
+}
+
 /* button */
 button{
 	width: 160px;
 	height: 30px;
+	
 	}
 
+.services-header-img{
+	display: flex;
+}
 
+.services-info-img{
+	display: flex;
+}
 
 
 
@@ -136,91 +161,49 @@ header .logo{
 .middle-container{
 	display: flex;
 	justify-content: center;
-	background: orange;
+	
 }
 
 .middle-img{
 	display: flex;
-	
-	
 }
+
 
 .bottom-container{
 	display: flex;
-	background: orange;
-	
-
-.top{
-	margin: auto;
-	display: block;
-	padding: 60px 60px;
-	border-bottom: 1px solid black;
 }
-	.top div{
-	float: left;
-	margin-top: 36px;
-	} 
 
-	.top div h1{
-	font-size: 80px;
-	}
+.sixboxes{
+	display: flex;
+	justify-content: center;
 
+
+}
 	
-
-	.top .area1text{
-	padding: 25 px;
-	text-align: center;
-	}
-
-
-.mid{
-	display: inline-block;
-	width: 100%;
-	height:250px;
-	}
-
-	.toparea{
-		display: block;
-		margin: 20px 0;
-	
-	}
-	
-		.toparea div{
-		display: inline-block;
-		width: 425px;
-		margin:10px;
+	.boxes1{
 		
-		}
-
-	.midearea{
-		border-bottom: solid black 1px;
-		margin: 20px 0;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-end;
+		/* background: gainsboro; */
+		
 	}
 
-		.midarea div{
-		display: inline-block;
-		width: 276px;
-		margin:10px;
-		}
-
-		.midarea div h2{
-		font-size: 20px;
-		font-weight: bold;
-		}
+	.boxes2{
+		 
+		height: 20%;
+		display: flex;
+		flex-flow: column nowrap;
+		/* justify-content: flex-end; */
+		background: gainsboro;
 
 
 
-footer{
+footer {
 	margin-bottom: 20px;
-	text-align: center;
+	text-align: left;
 }
-.contact{
-margin: 20px 0;
-}
-.contact h4{
-	margin-top: 35px;
-}
-.contact p{
-	margin-top: 20px;
-	
-}
+
+ .footer-text{
+	 text-align: center;
+ }
